@@ -1,0 +1,63 @@
+.card{
+    margin: 1rem auto;
+    position: relative;
+    text-align: left;
+    width: 40%;
+    height:fit-content;
+    border:1px solid rgb(18, 13, 43);
+    border-radius: 5px;
+    font-family: 'Marck Script',cursive;
+    background-size:  100% 50px;
+    background-color: rgba(230, 234, 238, 0.712);
+}
+.card div.content{
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: cursive;
+    overflow-x: auto;
+    
+}
+
+.card div.info{
+    border:1px solid gray;
+    border-radius: 5px;
+    margin: 1px;
+    background-color: rgba(239, 241, 241, 0.89);
+    width:99%;
+    height: 40px;
+}
+.card div.info p.createdAt{
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    font-size: 13px;
+    color: rgb(109, 106, 106);
+}
+@media (max-width:800px){
+    .card{
+        width: 60%;
+    }
+    .card div.info{
+        width:99%;
+        height: 50px;
+        margin:0;
+    }
+    .card div.info p.createdAt{
+        bottom: 8px;
+        left: 8%;
+        text-align: center;
+    }
+}
+@media (max-width:600px){
+    .card div.info p.createdAt{
+        text-align: center;
+        font-size: 10px;
+        left:12%;
+        bottom: 25px;
+        
+    }
+    .card{
+        width: 90%;
+    }
+    
+}

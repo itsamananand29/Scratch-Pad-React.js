@@ -1,0 +1,8 @@
+.word{
+    display: inline;
+    padding: 5px;
+    margin: 5px ;
+    color :rgb(9, 9, 46);
+    border:1px solid gray;
+    background-color: antiquewhite;
+}
